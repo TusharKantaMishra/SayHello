@@ -1,0 +1,77 @@
+.chatpage{
+    background-color: rgb(31, 29, 29);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chatcontainer{
+    height: 60%;
+    width: 50%;
+    background-color: #ffffff;
+}
+.header{
+    display: flex;
+    height: 15%;
+    background-color: crimson;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.header>h1{
+    font-size: 1.5vmax;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    margin: 2.5vmax;
+}
+
+.header img{
+    transform: scale(1.8); 
+    margin: 2.5vmax;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.header>img:hover{
+    transform: scale(2.3);
+}
+.chatbox{
+    height: 70%;
+    box-sizing: border-box;
+}
+.inputbox{
+    display: flex;
+    height: 15%;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+#chatinput{
+    width: 80%;
+    padding: 2vmax;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    font-size: 1vmax;
+    font-family: 'Space Grotesk', sans-serif;
+    border-top: 0.2vmax solid rgba(41, 41, 41, 0.562);
+}
+.sendbtn{
+    width: 21%;
+    background-color: crimson;
+    color: wheat;
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.sendbtn > img {
+    width: 2.6vmax;
+    filter: brightness(100) invert(100%);
+    transition: all 0.3s ease-in-out;
+}
+.sendbtn:hover img{
+    transform: translateX(10px);
+}
+.sendbtn:hover{
+    background-color: rgb(203, 17, 54);
+}
